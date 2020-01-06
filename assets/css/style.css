@@ -1800,10 +1800,23 @@ header .form-inline {
       text-align: left; }
     .social-box ul li span {
       font-size: 14px; }
+.columnlogin {
+  flex: 1;
+  flex-direction: column;
+}
 
+.column-doublelogin {
+  flex-direction: column;
+  flex: 2;
+}
 .login-logo {
-  text-align: center;
-  margin-bottom: 15px; }
+  margin: auto;
+  max-width: 40%;
+  min-width: 200px;
+  min-height: 100px;
+  height: auto;}
+
+
   .login-logo span {
     color: #ffffff;
     font-size: 24px; }
@@ -1813,9 +1826,10 @@ header .form-inline {
   margin: 8vh auto; }
 
 .login-form {
-  background: #ffffff;
-  padding: 30px 30px 20px;
-  border-radius: 2px; }
+  font-family: "Roboto", sans-serif;
+
+  margin: 0;
+  padding: 0; }
 
 .login-form h4 {
   color: #878787;
@@ -2389,7 +2403,9 @@ header .form-inline {
 
 @media (max-width: 575.99px) {
   body {
-    display: block; }
+    display: block;
+    
+   }
   aside.left-panel {
     display: block;
     height: auto;
